@@ -1,0 +1,61 @@
+﻿body {
+    font-family: Consolas;
+    text-align: center;
+    zoom: 115%;
+
+}
+h1 {
+    font-weight: bold;
+}
+
+ul {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+
+li {
+    min-height: 20px;
+    font-size: 18px; 
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.checked { 
+    text-decoration: line-through;
+    color: gray; 
+}
+
+button:hover {
+    background-color: darkorange;
+   
+}
+
+li button {
+    float: right;
+    margin: 0px 3px;
+    }
+
+li button:hover {
+    background-color: lightgray;
+    color: midnightblue;
+    border-color: midnightblue;
+}
+
+li button.doneButton { 
+    background-color: lightgreen;
+}
+
+
+
+
+checkbox {
+    color: orange;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 14px;
+}
+

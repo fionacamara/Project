@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--First view- CREATE NEW LIST-->
+    <div id="createNewListView">
+        <h1>To-Do List</h1>
+        <input type="text" id= "listName" placeholder="Name your New List" />
+        <button onclick="createNewList()"> Create </button>
+    </div>
+
+    <!--Second view-add items to NEW LIST-->
+    <div id="listView" style="display:none">
+        <h1 id="newListTitle"> New List </h1>
+
+        <ul id="listTasks">
+            <li> Go to the bank   <button>Done</button> <button>Delete</button><button>Edit</button> </li>
+           
+        </ul>
+
+        <input id="taskName" type="text" placeholder="New Task" />
+        <button onclick="addTask()">Add</button> 
+    </div>
+    <!--Third view - EDIT TASK-->
+    <div id ="editTaskView" style="display:none">
+        <h1>Editing Task </h1><h1 id="editTaskName"> Task Name Here</h1>
+        <input id="editBox" type="text" />
+        <button> Save </button> <button> Cancel </button>
+
+    </div>
+</body>
+</html>
